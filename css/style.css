@@ -2,3 +2,18 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
