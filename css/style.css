@@ -35,7 +35,7 @@ p {
 
 .link-button {
     text-decoration: none;
-    background-color: #7140D9;
+    background: linear-gradient(to left, #ad3d1b, #0000ff);
     color: white;
     padding: 5px 30px;
     border-radius: 5px;
@@ -60,7 +60,7 @@ p {
 #box {
     border-left: 10px solid;
     border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+    border-image-slice: 30%;
 }
 
 .footer p {
