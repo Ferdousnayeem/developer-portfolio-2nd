@@ -1,13 +1,18 @@
 body {
     font-family: 'Mukta', sans-serif;
+    margin: 0;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+}
+
+h2 {
+ font-size: 32px;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 18px;
     color: #7140D9;
 }
 
@@ -33,8 +38,39 @@ p {
     margin-bottom: 60px;
 }
 
+.experience {
+    margin-left: 30px;
+}
+
+.border-style {
+    width: 50%;
+    margin: 0 30px;
+    padding: 0 20px;
+    box-shadow: 15px 15px 15px grey;
+}
+
 #box {
-    box-shadow: 10px 40px 60px grey;
-    border-radius: 25px;
     border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.top-banner {
+    background-image: url("../images/top-banner-final-image-1.png");
+    background-repeat: no-repeat;
+}
+
+.middle-banner {
+    background-image: url(../images/dream-bg-final-image-1.png);
+    background-repeat: no-repeat;
+}
+
+.experience-banner {
+    background-image: url(../images/exp-bd-final-image-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
